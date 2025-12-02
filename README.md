@@ -4,6 +4,13 @@ Automated Advent of Code solver in Rust with Claude Code integration.
 
 ## Quick Start
 
+```bash
+claude --dangerously-skip-permissions "/aoc $(date +%Y)-$(date +%-d)"
+```
+
+
+## Usage
+
 ```claude
 # Solve day 5 of 2025
 /aoc 5
